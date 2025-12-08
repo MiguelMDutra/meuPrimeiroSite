@@ -3,61 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
-    <title>Alura1 Fazendo a olho e do meu jeito</title>
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-
     <header class="cabecalho">
-        <a href="index.html"> Home</a>
-        <a href="index2.html"> About me </a>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
     </header>
-
-
-    <main class="paiInformacoes">
-        <section class="informacoesGerais1">
-
-            <div class="texto">
-                <h1>Primeiro projeto. Testando todas utilidades aqui!
-                    <span>Grêmio</span>
-                </h1>
-
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum explicabo aspernatur in dolor, eum
-                    aliquid
-                    ad
-                    ab
-                    nihil debitis magni accusantium esse illum suscipit maiores ipsa! Quos voluptate culpa assumenda.
-                </p>
-
-                <div class="botao">
-                    <button
-                        href="https://tracker.gg/valorant/profile/riot/Pearl%20Jam%20Silva%23BLACK/overview?platform=pc&playlist=competitive&season=4c4b8cff-43eb-13d3-8f14-96b783c90cd2"
-                        target="_blank" onclick="trocaBackground()">Meu tracker</button>
-                    <button href="https://github.com/MiguelMDutra" target="_blank">Github</button>
-                </div>
-
-            </div>
-
-
-
-            <div class="LAIN">
-
-                <img class="sectionLain" src="Imagens/lain pixelada.jpg">
-
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
+            class="titulo-destaque">com um Front-end de qualidade!
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora
+            Front-end com especialidade em React, HTML e
+            CSS. Ajudo pequenos negócios e designers a
+            colocarem em prática boas ideias. Vamos
+            conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/rafaballerini">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/rafaellaballerini">
+                    <img src="./assets/linkedin.png">
+                    linkedin
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://twitch.tv/guilimadev">
+                    <img src="./assets/twitch.png">
+                    Twitch
+                </a>
             </div>
         </section>
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Joana Santos programando">
     </main>
-
-
-
-  
-
-
-
-    <script></script>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
+    </footer>
 </body>
 
 </html>
